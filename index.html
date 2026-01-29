@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taimoor Saqib - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Taimoor Saqib</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="particles"></div>
+        <canvas id="particle-canvas"></canvas>
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I'm <span class="highlight typing-text" data-text="Taimoor Saqib"></span></h1>
+            <p class="hero-subtitle">
+                <span class="role-text">Software Engineer</span> | 
+                <span class="role-text">Full-Stack Developer</span> | 
+                <span class="role-text">AI/ML Engineer</span>
+            </p>
+            <p class="hero-description">Experienced software engineer specializing in AI-powered applications, full-stack development, and scalable data engineering solutions. Currently working at Turing - OpenAI.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary"><span>View My Work</span></a>
+                <a href="#contact" class="btn btn-secondary"><span>Contact Me</span></a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/taimoorsaqib1" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/taimoor-saqib" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:taimoor.saqib1@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a Software Engineer currently working at <strong>Turing - OpenAI</strong>, where I architect and deploy mission-critical full-stack platforms for RLHF workflows and LLM training. I hold a Bachelor's degree in Computer Science from the National University of Computer and Emerging Sciences, Lahore, Pakistan.</p>
+                    <p>With over 3 years of professional experience, I've worked across various domains including AI/ML engineering, data engineering, and full-stack development. My expertise spans from building scalable AWS-based data pipelines to developing AI-powered applications using cutting-edge LLMs and agent systems.</p>
+                    <p>My professional experience includes:</p>
+                    <ul class="about-list">
+                        <li><i class="fas fa-check"></i> Leading teams to build automated data validation pipelines reducing dataset contamination by 25%</li>
+                        <li><i class="fas fa-check"></i> Architecting high-availability data platforms with 99.9% uptime using AWS services</li>
+                        <li><i class="fas fa-check"></i> Developing AI-powered tools using LangChain, LangGraph, and various LLM APIs</li>
+                        <li><i class="fas fa-check"></i> Building full-stack applications with React, Node.js, and modern DevOps practices</li>
+                        <li><i class="fas fa-check"></i> Optimizing database performance and managing large-scale ETL workflows</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Software Engineer</h3>
+                        <h4>Turing - OpenAI</h4>
+                        <p class="timeline-date"><i class="fas fa-calendar"></i> September 2023 - Present | Remote</p>
+                        <ul class="experience-list">
+                            <li>Architected and deployed mission-critical Fullstack labeling platform for RLHF workflows, increasing data throughput by 40%</li>
+                            <li>Led team of 6 engineers to build automated data validation pipelines, reducing dataset contamination by 25%</li>
+                            <li>Engineered custom internal dashboard using React and Node.js for real-time model alignment monitoring</li>
+                            <li>Optimized backend infrastructure to maintain 99.99% uptime with Redis caching and load-balanced microservices</li>
+                            <li>Established CI/CD and automated code-review framework with LLM-based pre-audits, reducing manual review time by 60%</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Data Engineer</h3>
+                        <h4>Kavtech</h4>
+                        <p class="timeline-date"><i class="fas fa-calendar"></i> September 2022 - September 2023 | Lahore, Pakistan</p>
+                        <ul class="experience-list">
+                            <li>Engineered high-availability data platform using AWS (S3, EC2, VPC) and EventBridge with 99.9% uptime</li>
+                            <li>Architected serverless data ingestion pipelines using AWS Lambda and Glue for real-time analytics</li>
+                            <li>Optimized large-scale data transformations using PySpark and Pandas for multi-source datasets</li>
+                            <li>Implemented robust monitoring frameworks improving reliability of trend analysis</li>
+                            <li>Developed scalable PostgreSQL solutions with fine-tuned queries for high-performance analytics</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Software Engineer</h3>
+                        <h4>12C</h4>
+                        <p class="timeline-date"><i class="fas fa-calendar"></i> August 2021 - September 2022 | Lahore, Pakistan</p>
+                        <ul class="experience-list">
+                            <li>Engineered technical solutions for overseas clients, reducing mean-time-to-resolution (MTTR) by 20%</li>
+                            <li>Optimized Informix and MySQL database queries, ensuring 100% accuracy in financial reporting</li>
+                            <li>Architected automated reporting workflow using SQL and Linux shell scripts</li>
+                            <li>Managed production environments on Linux with server-side patches and database maintenance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Bachelor of Computer Science</h3>
+                    <h4>National University of Computer and Emerging Sciences</h4>
+                    <p class="education-location"><i class="fas fa-map-marker-alt"></i> Lahore, Pakistan</p>
+                    <p class="education-date"><i class="fas fa-calendar"></i> August 2017 - August 2021</p>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon"><i class="fas fa-school"></i></div>
+                    <h3>Intermediate in Engineering</h3>
+                    <h4>Government College University</h4>
+                    <p class="education-location"><i class="fas fa-map-marker-alt"></i> Lahore, Pakistan</p>
+                    <p class="education-date"><i class="fas fa-calendar"></i> August 2015 - August 2017</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- AI Resume Optimizer -->
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-robot"></i></div>
+                    <h3>AI Resume Optimizer</h3>
+                    <p>Full-stack AI-powered platform using React and Node.js to optimize resumes for ATS compatibility. Integrated Google Gemini AI for sentence-by-sentence improvements and custom ATS scoring engine.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Express</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Gemini AI</span>
+                        <span class="tech-tag">NLP</span>
+                    </div>
+                    <a href="https://github.com/taimoorsaqib1/AI-resume-builder" target="_blank" class="project-link">
+                        View on GitHub <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <!-- Contract Analyzer -->
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-file-contract"></i></div>
+                    <h3>AI Contract Analyzer</h3>
+                    <p>Built AI-powered contract analysis system using LangChain and LangGraph to automatically extract, analyze, and classify legal clauses with risk assessment (Low/Medium/High) using local LLMs via Ollama.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">LangChain</span>
+                        <span class="tech-tag">LangGraph</span>
+                        <span class="tech-tag">Ollama</span>
+                        <span class="tech-tag">Streamlit</span>
+                    </div>
+                    <a href="https://github.com/taimoorsaqib1/Contract-Analyzer" target="_blank" class="project-link">
+                        View on GitHub <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <!-- Image Enhancement -->
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-image"></i></div>
+                    <h3>Image Enhancement</h3>
+                    <p>AI-powered tool for automatic color correction, HDR enhancement, old photo restoration, and colorization.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Computer Vision</span>
+                        <span class="tech-tag">Streamlit</span>
+                    </div>
+                    <a href="https://github.com/taimoorsaqib1/Image-Enhancement" target="_blank" class="project-link">
+                        View on GitHub <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <!-- Google LSA Analytics Platform -->
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-chart-bar"></i></div>
+                    <h3>Google LSA Analytics Platform</h3>
+                    <p>Developed scalable data ingestion and analytics system using AWS services (S3, Athena, Lambda, Glue) to process Google Local Services Ads and Facebook Ads performance metrics with PySpark and Pandas.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">AWS</span>
+                        <span class="tech-tag">PySpark</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Tableau</span>
+                    </div>
+                </div>
+
+                <!-- Chemco Pharmacy System -->
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-pills"></i></div>
+                    <h3>Chemco Pharmacy Management System</h3>
+                    <p>Comprehensive pharmacy management system for inventory, billing, and distribution. Integrated Stripe for automated payment processing, reducing billing time by 30%. Deployed across multiple nursing homes.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">Pentaho</span>
+                        <span class="tech-tag">Stripe</span>
+                    </div>
+                </div>
+
+                <!-- Enhanced Snake Game -->
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-gamepad"></i></div>
+                    <h3>Enhanced Snake Game</h3>
+                    <p>A visually enhanced Snake game with particles, sound effects, and modern design.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">C</span>
+                        <span class="tech-tag">Game Dev</span>
+                    </div>
+                    <a href="https://github.com/taimoorsaqib1/enhanced-snake-game" target="_blank" class="project-link">
+                        View on GitHub <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <!-- Neon Snake Game -->
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-gamepad"></i></div>
+                    <h3>Neon Snake Game</h3>
+                    <p>A modern take on the classic snake game with neon aesthetics.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML5 Canvas</span>
+                    </div>
+                    <a href="https://github.com/taimoorsaqib1/neon-snake-game" target="_blank" class="project-link">
+                        View on GitHub <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <!-- Boids Simulation -->
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-dove"></i></div>
+                    <h3>Boids Flocking Simulation</h3>
+                    <p>A minimal Boids flocking simulation using pygame and numpy.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Pygame</span>
+                        <span class="tech-tag">NumPy</span>
+                    </div>
+                    <a href="https://github.com/taimoorsaqib1/boids" target="_blank" class="project-link">
+                        View on GitHub <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <!-- Double Pendulum -->
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Double Pendulum</h3>
+                    <p>Physics simulation demonstrating chaotic motion of a double pendulum.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Physics</span>
+                    </div>
+                    <a href="https://github.com/taimoorsaqib1/double_pendulum" target="_blank" class="project-link">
+                        View on GitHub <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <!-- Gray-Scott Reaction-Diffusion -->
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-palette"></i></div>
+                    <h3>Gray-Scott Reaction-Diffusion</h3>
+                    <p>Simulation of pattern formation using reaction-diffusion equations.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Simulation</span>
+                    </div>
+                    <a href="https://github.com/taimoorsaqib1/Gray-Scott-reaction-diffusion" target="_blank" class="project-link">
+                        View on GitHub <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <!-- Game of Life -->
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-th"></i></div>
+                    <h3>Conway's Game of Life</h3>
+                    <p>Implementation of Conway's cellular automaton.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Cellular Automata</span>
+                    </div>
+                    <a href="https://github.com/taimoorsaqib1/GameOfLife" target="_blank" class="project-link">
+                        View on GitHub <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <!-- Car Collision -->
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-car-crash"></i></div>
+                    <h3>Car Collision Simulation</h3>
+                    <p>Interactive car collision physics simulation.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Physics</span>
+                    </div>
+                    <a href="https://github.com/taimoorsaqib1/CarCollision" target="_blank" class="project-link">
+                        View on GitHub <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <!-- Simple Car Simulator -->
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-car"></i></div>
+                    <h3>Simple Car Simulator</h3>
+                    <p>Basic car driving simulator with realistic physics.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Simulation</span>
+                    </div>
+                    <a href="https://github.com/taimoorsaqib1/SimpleCarSimulator" target="_blank" class="project-link">
+                        View on GitHub <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <!-- Cellular Sandbox -->
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-water"></i></div>
+                    <h3>Sand-Water-Smoke Sandbox</h3>
+                    <p>Cellular automata sandbox with sand, water, and smoke physics.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Cellular Automata</span>
+                    </div>
+                    <a href="https://github.com/taimoorsaqib1/Sand-Water-Smoke-CellularSandbox" target="_blank" class="project-link">
+                        View on GitHub <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <!-- Image Glitch -->
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-photo-video"></i></div>
+                    <h3>Image Glitch</h3>
+                    <p>Create artistic glitch effects on images.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Image Processing</span>
+                    </div>
+                    <a href="https://github.com/taimoorsaqib1/ImageGlitch" target="_blank" class="project-link">
+                        View on GitHub <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <!-- Text to Video -->
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-video"></i></div>
+                    <h3>Text to Video</h3>
+                    <p>Convert text descriptions into video content.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">AI</span>
+                    </div>
+                    <a href="https://github.com/taimoorsaqib1/text-to-video" target="_blank" class="project-link">
+                        View on GitHub <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> AI, LLMs & Agent Systems</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">LangChain</span>
+                        <span class="skill-tag">LangGraph</span>
+                        <span class="skill-tag">LlamaIndex</span>
+                        <span class="skill-tag">OpenAI API</span>
+                        <span class="skill-tag">Ollama</span>
+                        <span class="skill-tag">Hugging Face</span>
+                        <span class="skill-tag">RLHF Workflows</span>
+                        <span class="skill-tag">NLP</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-layer-group"></i> Backend & Full-Stack</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag">Microservices</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Data Engineering & Analytics</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">PySpark</span>
+                        <span class="skill-tag">ETL Pipelines</span>
+                        <span class="skill-tag">Data Warehousing</span>
+                        <span class="skill-tag">Athena</span>
+                        <span class="skill-tag">Glue</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MySQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS S3</span>
+                        <span class="skill-tag">AWS EC2</span>
+                        <span class="skill-tag">AWS Lambda</span>
+                        <span class="skill-tag">AWS Glue</span>
+                        <span class="skill-tag">EventBridge</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Linux</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-chart-line"></i> Visualization & Reporting</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Tableau</span>
+                        <span class="skill-tag">Pentaho</span>
+                        <span class="skill-tag">Stripe API</span>
+                        <span class="skill-tag">Streamlit</span>
+                        <span class="skill-tag">Gradio</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p class="contact-description">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                <div class="contact-methods">
+                    <a href="https://github.com/taimoorsaqib1" target="_blank" class="contact-card">
+                        <i class="fab fa-github"></i>
+                        <h3>GitHub</h3>
+                        <p>Check out my repositories</p>
+                    </a>
+                    <a href="mailto:taimoor.saqib1@gmail.com" class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>taimoor.saqib1@gmail.com</p>
+                    </a>
+                    <a href="https://linkedin.com/in/taimoor-saqib" target="_blank" class="contact-card">
+                        <i class="fab fa-linkedin"></i>
+                        <h3>LinkedIn</h3>
+                        <p>Connect with me</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Taimoor Saqib. All rights reserved.</p>
+            <p>Built with passion and code</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
