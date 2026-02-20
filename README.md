@@ -28,11 +28,12 @@ Software Engineer with 3+ years of experience in AI/ML engineering, full-stack d
 
 ## Featured Projects
 
-1. **AI Resume Optimizer** - Full-stack platform with React, Node.js, and Gemini AI for ATS optimization
-2. **AI Contract Analyzer** - LangChain/LangGraph-based system for legal clause analysis
-3. **Google LSA Analytics Platform** - AWS-based data platform processing advertising metrics
-4. **Chemco Pharmacy Management System** - Comprehensive system with Stripe integration
-5. And many more simulation and game development projects!
+1. **Repo Analyzer - AI Coding Assistant** - RAG-powered assistant for chatting with GitHub repositories using LangChain, ChromaDB, and support for both OpenAI and local Ollama models
+2. **AI Resume Optimizer** - Full-stack platform with React, Node.js, and Gemini AI for ATS optimization
+3. **AI Contract Analyzer** - LangChain/LangGraph-based system for legal clause analysis
+4. **Google LSA Analytics Platform** - AWS-based data platform processing advertising metrics
+5. **Chemco Pharmacy Management System** - Comprehensive system with Stripe integration
+6. And many more simulation and game development projects!
 
 ## Technologies Used
 
@@ -49,88 +50,6 @@ Software Engineer with 3+ years of experience in AI/ML engineering, full-stack d
 - **Data Engineering**: Pandas, PySpark, ETL Pipelines, AWS (S3, Lambda, Glue, Athena), PostgreSQL
 - **Cloud/DevOps**: AWS Services, Docker, CI/CD, Git, Linux
 - **Visualization**: Tableau, Pentaho, Streamlit, Gradio
-
-## How to Deploy to Netlify
-
-### Method 1: Drag and Drop (Easiest)
-
-1. Go to [Netlify](https://www.netlify.com/)
-2. Sign up or log in
-3. Drag and drop the entire "Portfolio Website" folder onto the Netlify dashboard
-4. Your site will be live in seconds!
-
-### Method 2: GitHub Integration (Recommended)
-
-1. Create a new repository on GitHub
-2. Upload all files to the repository
-3. Go to Netlify and click "New site from Git"
-4. Connect your GitHub account
-5. Select your portfolio repository
-6. Click "Deploy site"
-
-### Method 3: Netlify CLI
-
-```bash
-# Install Netlify CLI
-npm install -g netlify-cli
-
-# Navigate to your project folder
-cd "c:\Users\RBTG\Desktop\Games\Portfolio Website"
-
-# Deploy
-netlify deploy --prod
-```
-
-## File Structure
-
-```
-Portfolio Website/
-├── index.html          # Main HTML file
-├── styles.css          # All styles and animations
-├── script.js           # JavaScript functionality
-├── README.md           # This file
-└── Taimoor Saqib.pdf   # Your resume
-```
-
-## Customization
-
-### Update Personal Information
-
-1. **Email**: Update the email link in the contact section (line with `mailto:`)
-2. **LinkedIn**: Add your LinkedIn URL in the contact and hero sections
-3. **Projects**: Add or remove projects in the projects section of `index.html`
-
-### Change Colors
-
-Edit the CSS variables in `styles.css`:
-
-```css
-:root {
-    --primary-color: #6366f1;
-    --secondary-color: #8b5cf6;
-    --accent-color: #ec4899;
-    /* ... more colors */
-}
-```
-
-### Add More Sections
-
-Simply copy a section structure and customize it to your needs.
-
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Mobile browsers
-
-## Performance
-
-- Lightweight (no heavy frameworks)
-- Fast loading times
-- Optimized animations
-- Minimal dependencies (only Font Awesome CDN)
 
 ## License
 
